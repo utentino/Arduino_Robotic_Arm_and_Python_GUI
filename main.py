@@ -3,7 +3,6 @@ from PyQt5.QtCore import QThread, pyqtSignal
 import serial
 import sys
 import time
-import os
 
 dimensione_gui = 100#%  (100% or 125%) percentage of screen resizing -- in base a ridimensionamento schermo
 
