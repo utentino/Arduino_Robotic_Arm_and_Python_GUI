@@ -1,1 +1,1 @@
-# Arduino_Robotic_Arm_and_Python_GUI
+# Arduino controlled robotic arm and Python programmed GUI
