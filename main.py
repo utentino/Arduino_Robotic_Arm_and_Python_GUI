@@ -5,7 +5,7 @@ import sys
 import time
 import os
 
-dimensione_gui = 125#%  (100% or 125%) percentage of screen resizing -- in base a ridimensionamento schermo
+dimensione_gui = 100#%  (100% or 125%) percentage of screen resizing -- in base a ridimensionamento schermo
 
 servo1_home = 90
 servo2_home = 130
