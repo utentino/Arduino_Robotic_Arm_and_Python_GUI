@@ -105,12 +105,12 @@ void loop() {
       servo4PPos = getValue(lettura,',',4).toInt();
       servo5PPos = getValue(lettura,',',5).toInt();
       servo6PPos = getValue(lettura,',',6).toInt();
-      servo1.startEaseTo(servo1PPos, 75);
-      servo2.startEaseTo(servo2PPos, 75);
-      servo3.startEaseTo(servo3PPos, 75);
-      servo4.startEaseTo(servo4PPos, 75);
-      servo5.startEaseTo(servo5PPos, 75);
-      servo6.startEaseTo(servo6PPos, 75);
+      servo1.startEaseTo(servo1PPos, 65);
+      servo2.startEaseTo(servo2PPos, 65);
+      servo3.startEaseTo(servo3PPos, 65);
+      servo4.startEaseTo(servo4PPos, 65);
+      servo5.startEaseTo(servo5PPos, 65);
+      servo6.startEaseTo(servo6PPos, 65);
    }
    if (getValue(lettura,',',0)=="s"){     //save
     if (limite_posizioni > posizioni){
